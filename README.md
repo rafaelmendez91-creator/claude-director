@@ -21,7 +21,8 @@ No necesita saber de computación. Todo se instala pegando **un solo texto** en 
 
 2. **Pegue el texto de arranque.** Abra el archivo [EMPEZAR_AQUI.md](EMPEZAR_AQUI.md)
    de esta carpeta, copie TODO el bloque marcado y péguelo en el chat de Claude.
-   Claude se configura solo: instala sus herramientas, conecta su correo y le
+   Claude se configura solo: le crea SU PROPIA copia en SU cuenta de GitHub (con
+   el nombre que usted elija), instala sus herramientas, conecta su correo y le
    explica qué quedó listo.
 
 3. **Pruébelo.** Escríbale a Claude: **"tablero"**. Le dará su día en una página:
@@ -29,11 +30,14 @@ No necesita saber de computación. Todo se instala pegando **un solo texto** en 
 
 ## Cuando esté en OTRA de sus máquinas
 
-No memorice pasos distintos por aparato. Una sola frase le sirve siempre, sea
-la primera vez ahí o ya la haya usado antes — Claude decide solo qué hace falta
-mirando esta misma máquina, no su recuerdo de otra:
+No memorice pasos distintos por aparato, ni el nombre de su repositorio. Una
+sola frase le sirve siempre, sea la primera vez ahí o ya la haya usado antes —
+Claude decide solo qué hace falta mirando esta misma máquina, no su recuerdo
+de otra, y casi siempre encuentra la dirección de su copia solo (queda
+anotada en su Despacho de Drive). Si en una máquina muy nueva su Drive todavía
+no está a la vista, se lo pregunta una sola vez y ya no vuelve a hacerlo:
 
-> **"Sincroniza mi oficina con mi repositorio claude-director."**
+> **"Sincroniza mi oficina con mi repositorio personal de GitHub."**
 
 Si la máquina es nueva, la deja instalada de cero. Si ya la había configurado,
 la actualiza a la última versión. Detalle en [guía 08](guias/08-sincronizar-mis-maquinas.md).
@@ -47,7 +51,7 @@ la actualiza a la última versión. Detalle en [guía 08](guias/08-sincronizar-m
 | [skills/](skills/) | Las órdenes que su Claude entiende: "tablero", "revisa mi correo", "revísalo", etc. |
 | [guias/](guias/) | Explicaciones cortas en lenguaje simple (correo, agentes, GitHub, pendientes) |
 | [RECOMENDACIONES.md](RECOMENDACIONES.md) | Consejos de operación y cómo delegar el mantenimiento técnico |
-| [ACTUALIZACIONES.md](ACTUALIZACIONES.md) | Qué trae cada versión. Para actualizar: dígale a Claude *"actualiza el paquete claude-director"* |
+| [ACTUALIZACIONES.md](ACTUALIZACIONES.md) | Qué trae cada versión. Para actualizar: dígale a Claude *"sincroniza mi oficina"* |
 | `skills/sincroniza` | La frase única para cualquier máquina: clona si es nueva, actualiza si no |
 
 ## Las 5 promesas de este sistema

@@ -1,32 +1,61 @@
 # Texto de arranque — pegar una sola vez
 
-**Instrucciones:** abra la carpeta `claude-director` en el Explorador de
-archivos, haga clic en la barra de dirección (arriba, donde sale la ruta),
-escriba `powershell` y presione Enter — se abre PowerShell ya parado en esta
-carpeta. Ahí escriba `claude` y Enter. Luego copie TODO el bloque de abajo —
-desde «COPIA DESDE AQUÍ» hasta «HASTA AQUÍ» — y péguelo en el chat. Claude hace
-el resto y le avisa paso a paso. Si algo necesita un clic o una autorización en
-el navegador, él se lo pedirá.
+**Instrucciones:** abra esta carpeta (la plantilla que le pasó Rafael) en el
+Explorador de archivos, haga clic en la barra de dirección (arriba, donde sale
+la ruta), escriba `powershell` y presione Enter — se abre PowerShell ya parado
+en esta carpeta. Ahí escriba `claude` y Enter. Luego copie TODO el bloque de
+abajo — desde «COPIA DESDE AQUÍ» hasta «HASTA AQUÍ» — y péguelo en el chat.
+Claude hace el resto (incluyendo crearle SU PROPIA copia, con su propio nombre)
+y le avisa paso a paso. Si algo necesita un clic o una autorización en el
+navegador, él se lo pedirá.
 
 ---
 
 👉 **COPIA DESDE AQUÍ**
 
 Hola Claude. Soy el director de un grupo de empresas. No soy técnico y no quiero
-serlo: quiero un asistente ejecutivo de máxima confianza. Esta carpeta
-(`claude-director`) trae tu configuración completa. Instálala y déjame todo
-funcionando. Haz lo siguiente en orden, avisándome al terminar cada parte, y
-háblame SIEMPRE en lenguaje simple, sin jerga técnica.
+serlo: quiero un asistente ejecutivo de máxima confianza. Esta carpeta trae tu
+configuración completa, tomada de una plantilla pública. Instálala y déjame
+todo funcionando. Haz lo siguiente en orden, avisándome al terminar cada parte,
+y háblame SIEMPRE en lenguaje simple, sin jerga técnica.
+
+**PARTE 0 — Hazla MI copia, no la de nadie más.**
+- **Primero revisa si esto ya se hizo antes.** Busca si ya existe
+  `Despacho/CONFIG.md` en mi Google Drive, o pregúntame directo: "¿ya hiciste
+  esto en otra de tus máquinas?". Si YA tengo una copia personal, NO crees una
+  segunda — usa esa dirección y salta directo a la sección "¿Y si esta es OTRA
+  de mis máquinas?" al final de este documento. Solo sigue con los pasos de
+  abajo si de verdad es la primera vez, en cualquiera de mis máquinas.
+- Aviso: en este paso vas a necesitar ejecutar comandos en la terminal (no solo
+  clics de navegador); es normal y esperado que me pidas aprobar cada uno — es
+  el único momento donde eso pasa tanto.
+- Esta carpeta vino de una plantilla PÚBLICA en GitHub (de Rafael). Voy a
+  querer una copia mía, totalmente separada — no un "fork" visible ligado a su
+  cuenta, sino un repositorio nuevo y propio con el mismo contenido.
+- Si no tengo cuenta de GitHub, ayúdame a crear una gratis (es solo un correo y
+  una contraseña que yo pongo, tú no la ves). Si no tengo `gh` instalado,
+  instálalo tú.
+- Inicia sesión conmigo en MI cuenta (`gh auth login`, se abre el navegador y yo
+  apruebo — nunca te doy mi contraseña). Confirma que quedó en MI cuenta, no en
+  la de Rafael.
+- Pregúntame dos cosas: (a) qué nombre quiero ponerle (por ejemplo "Mi
+  Oficina" u "Oficina Julio Pinto"), y (b) si la quiero pública o privada —
+  **recomiéndame privada**: nadie más la ve, y como es mía, no necesito el
+  usuario de Rafael para nada, solo el mío.
+- Créala como repositorio NUEVO en mi cuenta (sin vínculo de "fork" hacia el de
+  Rafael) usando el contenido de esta carpeta, con el nombre y la visibilidad
+  que elegí. Confírmame la dirección final y que en GitHub NO aparece ligada a
+  la cuenta de Rafael.
+- Guarda la dirección de MI copia — la vas a necesitar en la Parte 1 y en la 4.
 
 **PARTE 1 — Adopta tus reglas de la casa.**
-- Ubica la carpeta `claude-director` (estás dentro de ella; si no la encuentras,
-  pregúntame dónde quedó antes de continuar).
+- Ubica la carpeta de MI copia (la que acabas de descargar en la Parte 0).
 - Copia su archivo `CLAUDE.md` a tu configuración personal (`~/.claude/CLAUDE.md`).
   Si ya existe uno, intégralos sin borrar lo que había, y muéstrame un resumen de
   qué reglas quedaron activas.
 - Anota en la sección "Datos de esta instalación" de ese archivo: la ruta de la
-  carpeta del paquete y la versión instalada (la más reciente de
-  `ACTUALIZACIONES.md`).
+  carpeta, la dirección de MI copia en GitHub (no la de la plantilla), y la
+  versión instalada (la más reciente de `ACTUALIZACIONES.md`).
 - Copia la carpeta `skills/` completa a tu carpeta de skills (`~/.claude/skills/`).
   Al terminar, dime en una tabla simple qué órdenes me entiendes ahora (por
   ejemplo: "tablero", "revisa mi correo", "revísalo") y para qué sirve cada una.
@@ -61,8 +90,12 @@ háblame SIEMPRE en lenguaje simple, sin jerga técnica.
   Google Drive para escritorio y mudar el Despacho" para hacerlo cuando yo diga.
 - Dentro del Despacho crea: `PENDIENTES.md` (mi lista maestra), `BITACORA.md`
   (el registro de lo que haces por mí), `AUTOMATIZACIONES.md` (la lista de todo
-  lo que corre solo, para que yo siempre pueda verla) y la subcarpeta `cierres`
-  (los resúmenes semanales).
+  lo que corre solo, para que yo siempre pueda verla), `CONFIG.md` (con UNA
+  línea: la dirección de MI copia en GitHub, la de la Parte 0) y la subcarpeta
+  `cierres` (los resúmenes semanales).
+- **`CONFIG.md` es la llave para mis otras máquinas**: como el Despacho vive en
+  mi Drive, cualquier máquina mía que vea mi Drive puede leer ahí la dirección
+  de mi copia sin que yo se la tenga que repetir.
 - **Anota la ruta exacta del Despacho** en mis reglas de la casa
   (`~/.claude/CLAUDE.md`, sección "Datos de esta instalación") para que todas
   las órdenes la encuentren siempre, sin adivinar.
@@ -94,12 +127,13 @@ háblame SIEMPRE en lenguaje simple, sin jerga técnica.
 
 ---
 
-### ¿Y si no tengo la carpeta todavía?
+### ¿Y si esta es OTRA de mis máquinas (ya hice esto antes en otra)?
 
-Abra Claude (escriba `claude` en PowerShell) y dígale:
+No repita este bloque grande. Abra Claude ahí y dígale solamente:
 
-> "Descárgame el paquete claude-director desde
-> https://github.com/rafaelmendez91-creator/claude-director
-> Si te falta alguna herramienta para descargarlo, instálala tú y avísame."
+> "Sincroniza mi oficina con mi repositorio personal de GitHub."
 
-Cuando Claude confirme que lo descargó, pegue el bloque de arriba.
+No hace falta que diga el nombre ni la dirección — Claude la encuentra sola
+leyendo `CONFIG.md` en su Despacho de Drive (vea la [guía 08](guias/08-sincronizar-mis-maquinas.md)).
+Solo si esta es la carpeta que nunca ha existido en NINGUNA máquina suya
+(la primerísima vez, de todas), use el bloque completo de arriba.

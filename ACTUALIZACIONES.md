@@ -15,6 +15,26 @@ instalación"; si es menor que la de aquí, aplica todo lo que falte.
 
 ---
 
+## v1.4 — 2026-07-23 · Su propia copia, no la de Rafael
+
+- **EMPEZAR_AQUI (nueva PARTE 0)**: lo primero que hace la instalación es
+  crear la copia PERSONAL del director en SU cuenta de GitHub, con el nombre
+  que él elija — deja de depender de la cuenta de Rafael y de llamarse
+  "claude-director".
+- **`Despacho/CONFIG.md`**: guarda la dirección de esa copia personal dentro
+  del Despacho (en Drive), para que cualquier máquina la encuentre sola.
+- **Skill `sincroniza` actualizada**: ahora busca la dirección en las reglas de
+  la casa y, si no está, en `Despacho/CONFIG.md` — nunca asume un nombre fijo.
+- **La frase única cambia** a: "Sincroniza mi oficina con mi repositorio
+  personal de GitHub" (ya no menciona "claude-director").
+- **Corrección de revisor**: la copia personal se crea como repositorio NUEVO
+  y separado (nunca un "fork" visible que quede ligado a la cuenta de
+  Rafael) — con nombre y visibilidad (recomendado privada) elegidos por el
+  director. PARTE 0 ahora también revisa primero si ya existe una copia antes
+  de crear otra, y avisa que en ese paso aparecerán ventanas de aprobación de
+  terminal (no solo de navegador). Guía 02 actualizada para reflejar el
+  Despacho real (4 archivos + `cierres`, en Drive).
+
 ## v1.3 — 2026-07-23 · Una frase para todas las máquinas
 
 - **Skill `sincroniza`**: detecta el estado real de CADA máquina desde sus

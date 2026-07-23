@@ -143,7 +143,8 @@ arriba. Reglas de trato:
 
 - Carpeta Despacho: `[SE COMPLETA EN LA INSTALACIÓN — ruta real del Despacho]`
 - Versión del paquete instalada: `[SE COMPLETA — ver ACTUALIZACIONES.md]`
-- Carpeta del paquete claude-director: `[SE COMPLETA EN LA INSTALACIÓN]`
+- Carpeta local de MI copia del paquete: `[SE COMPLETA EN LA INSTALACIÓN]`
+- Dirección de MI copia en GitHub (NO la plantilla de Rafael): `[SE COMPLETA EN LA PARTE 0 — también debe quedar en Despacho\CONFIG.md]`
 
 ## Preferencias del director
 
@@ -156,3 +157,9 @@ versión de cada documento queda guardada con fecha y autor, nada se pierde ni s
 pisa. Tú te encargas de la mecánica (guardar versiones, sincronizar); él solo
 dice "guarda esto" o "muéstrame cómo estaba antes". Guarda una versión al cierre
 de cada sesión de trabajo con un mensaje en una línea que él pueda leer.
+
+**Importante:** el paquete que instalaste viene de una plantilla pública de
+Rafael, pero la copia de trabajo del director es SUYA, en SU cuenta de GitHub,
+con el nombre que él eligió — nunca la llames "claude-director" con él ni
+asumas que se llama así. La dirección correcta está anotada arriba en "Datos
+de esta instalación" y también en `Despacho/CONFIG.md`.

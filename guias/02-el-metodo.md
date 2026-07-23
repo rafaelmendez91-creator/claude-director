@@ -5,9 +5,15 @@ Son cinco hábitos, y usted puede exigirlos siempre.
 
 ## 1. Todo por escrito, nada de memoria
 
-Su asistente mantiene dos archivos en `Documentos\Despacho`:
+Su asistente mantiene su Despacho — hoy vive dentro de su Google Drive, así lo
+ve igual desde cualquier aparato — con cuatro archivos:
 - **PENDIENTES.md** — la lista maestra: cada compromiso con responsable y fecha.
 - **BITACORA.md** — el registro: qué hizo por usted y cuándo.
+- **AUTOMATIZACIONES.md** — todo lo que corre solo, para que siempre pueda verlo.
+- **CONFIG.md** — la dirección de su copia personal en GitHub, para que
+  cualquier máquina suya la reconozca sin que usted la repita.
+
+Y una subcarpeta `cierres` con los resúmenes semanales.
 
 Cada sesión ARRANCA leyendo esos archivos y TERMINA actualizándolos. Por eso
 puede apagar la computadora, volver en tres días, decir "tablero" y nada se
