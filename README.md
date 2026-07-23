@@ -41,7 +41,9 @@ No necesita saber de computación. Todo se instala pegando **un solo texto** en 
 
 1. **Nada se pierde.** Todo pendiente queda escrito con responsable y fecha. Lo que
    falta se marca `[FALTA]`, nunca se inventa.
-2. **Nada se envía solo.** Correos y mensajes quedan como borradores; usted aprueba.
+2. **Nada se envía solo y nada se borra.** Correos y mensajes quedan como
+   borradores; usted aprueba. Al ordenar, todo se archiva o se reubica — la
+   papelera no se toca.
 3. **Todo se verifica.** Antes de entregarle un resultado importante, un "revisor"
    independiente intenta encontrarle errores.
 4. **Lenguaje simple.** Su asistente le habla como a un director, no como a un ingeniero.
