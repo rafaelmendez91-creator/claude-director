@@ -83,10 +83,10 @@ háblame SIEMPRE en lenguaje simple, sin jerga técnica.
 
 ### ¿Y si no tengo la carpeta todavía?
 
-Pídale a Rafael el enlace del paquete, abra Claude (escriba `claude` en
-PowerShell) y dígale:
+Abra Claude (escriba `claude` en PowerShell) y dígale:
 
-> "Descárgame el paquete claude-director desde este enlace: (pegue el enlace).
+> "Descárgame el paquete claude-director desde
+> https://github.com/rafaelmendez91-creator/claude-director
 > Si te falta alguna herramienta para descargarlo, instálala tú y avísame."
 
 Cuando Claude confirme que lo descargó, pegue el bloque de arriba.
