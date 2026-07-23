@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem:*)",
+      "PowerShell(Get-Content:*)",
+      "PowerShell(Get-Item:*)",
+      "PowerShell(Get-Date:*)",
+      "PowerShell(Get-Command:*)",
+      "PowerShell(Get-Process:*)",
+      "PowerShell(Test-Path:*)",
+      "PowerShell(Select-String:*)",
+      "PowerShell(Measure-Object:*)",
+      "PowerShell(Resolve-Path:*)",
+      "Bash(ls:*)",
+      "Bash(dir:*)",
+      "Bash(git status:*)",
+      "Bash(git log:*)",
+      "Bash(git diff:*)",
+      "Bash(git branch:*)",
+      "Bash(git pull:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(python:*)",
+      "Read(//c/Users/**)",
+      "Glob(*)",
+      "Grep(*)"
+    ],
+    "deny": [
+      "Bash(rm -rf:*)",
+      "PowerShell(Remove-Item:*)",
+      "PowerShell(Stop-Computer:*)",
+      "PowerShell(Restart-Computer:*)",
+      "PowerShell(Set-ExecutionPolicy:*)"
+    ]
+  }
+}
