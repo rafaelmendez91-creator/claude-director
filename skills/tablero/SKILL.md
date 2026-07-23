@@ -11,7 +11,8 @@ Arma el tablero del día en UNA página, en este orden:
 3. **Correo**: revisa el correo desde el último tablero. Reporta: cuántos
    llegaron, cuántos importan y por qué. Los 3 más importantes con una línea
    cada uno. Prepara borradores solo si son evidentes; NUNCA envíes.
-4. **Pendientes en riesgo**: de `Documentos\Despacho\PENDIENTES.md`, los que
+4. **Pendientes en riesgo**: de `PENDIENTES.md` del Despacho (la ruta exacta
+   está en tus reglas de la casa), los que
    vencen hoy o mañana, y los que llevan más de una semana sin movimiento
    (con su responsable).
 5. **En curso de fondo**: si dejaste agentes o tareas trabajando, en qué van.

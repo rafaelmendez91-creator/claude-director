@@ -5,6 +5,9 @@
 1. **Conectores (la buena)**: permisos oficiales que usted autoriza una vez.
    Claude lee el correo, busca en Drive y mira el calendario "por la puerta",
    sin tocar su pantalla ni su navegador. Usted sigue trabajando mientras tanto.
+   Existen para Google y Microsoft; si su correo es de otro proveedor, su
+   asistente le dirá qué haría falta y lo dejará anotado como pendiente en vez
+   de trabarse.
 2. **Navegador integrado**: para páginas sin conector, Claude usa un navegador
    propio dentro de la sesión. Ve la página y navega, pero cuando la página pide
    contraseña o pago, se detiene y le pide a usted ese paso.

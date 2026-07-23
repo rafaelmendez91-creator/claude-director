@@ -16,7 +16,7 @@ Cuando el director te dé una tarea que tarda más de ~2 minutos:
    devuelve un resumen corto con fuentes, nunca volcados completos.
 4. **Al terminar**: consolida, pasa el resultado por el skill `revisor`, y
    entrégale al director el resultado final con el cierre ✅/⏳/🔴.
-5. **Registra** en `Documentos\Despacho\BITACORA.md`: fecha, encargo, resultado,
+5. **Registra** en `BITACORA.md` del Despacho: fecha, encargo, resultado,
    dónde quedó guardado.
 
 Si la tarea es RECURRENTE ("quiero esto cada lunes"), ofrécele dejarla

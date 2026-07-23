@@ -27,8 +27,8 @@ Ese mantenimiento no es trabajo de director.
 
 Nuestra recomendación es **nombrar un administrador del sistema** — Rafael, que
 ya opera esta misma arquitectura en la migración contable — con autorización
-permanente para: agregar y ajustar skills, conectar nuevas fuentes de datos,
-programar automatizaciones y mantener el repositorio actualizado. Usted
+permanente para: agregar y ajustar las órdenes de su asistente, conectar nuevas
+fuentes de datos, programar automatizaciones y mantener el paquete al día. Usted
 conserva siempre las tres llaves que no se delegan:
 
 1. **Nada se envía ni publica** sin su aprobación.

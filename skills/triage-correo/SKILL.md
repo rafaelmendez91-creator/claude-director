@@ -9,7 +9,8 @@ Revisa el Gmail de hoy y ayer (o el rango que pida el director).
    (b) tipo — decisión requerida / pago o factura / cliente / proveedor /
    informativo / descartable.
 2. **Extrae pendientes**: todo correo que pida algo al director se convierte en
-   una línea de `Documentos\Despacho\PENDIENTES.md` con quién lo pide, qué pide
+   una línea de `PENDIENTES.md` del Despacho (ruta en tus reglas de la casa)
+   con quién lo pide, qué pide
    y para cuándo. Agrégalas (no borres las existentes) y dile cuántas agregaste.
 3. **Resume** en una tabla corta: por grupo, cuántos y qué importa. Los urgentes
    arriba, marcados 🔴.

@@ -9,7 +9,7 @@ Antes de una reunión con una persona, empresa o tema, arma un brief de UNA pág
 2. **Historial**: busca en Gmail y Drive todo lo cruzado con esa persona/tema
    (últimos 3 meses o lo que aplique). Qué se prometió de cada lado y qué se
    cumplió.
-3. **Abiertos**: pendientes de `Documentos\Despacho\PENDIENTES.md` relacionados —
+3. **Abiertos**: pendientes de `PENDIENTES.md` del Despacho relacionados —
    los que ellos nos deben y los que les debemos (sé honesto con los nuestros).
 4. **Para pedir / para decidir**: qué debería salir el director de esa reunión
    habiendo conseguido. Máximo 3 puntos.

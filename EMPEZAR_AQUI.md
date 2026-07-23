@@ -1,9 +1,12 @@
 # Texto de arranque — pegar una sola vez
 
-**Instrucciones:** abra Claude (escribiendo `claude` en PowerShell, dentro de esta
-carpeta), copie TODO el bloque de abajo — desde «COPIA DESDE AQUÍ» hasta «HASTA
-AQUÍ» — y péguelo en el chat. Claude hace el resto y le avisa paso a paso.
-Si algo necesita un clic o una autorización en el navegador, él se lo pedirá.
+**Instrucciones:** abra la carpeta `claude-director` en el Explorador de
+archivos, haga clic en la barra de dirección (arriba, donde sale la ruta),
+escriba `powershell` y presione Enter — se abre PowerShell ya parado en esta
+carpeta. Ahí escriba `claude` y Enter. Luego copie TODO el bloque de abajo —
+desde «COPIA DESDE AQUÍ» hasta «HASTA AQUÍ» — y péguelo en el chat. Claude hace
+el resto y le avisa paso a paso. Si algo necesita un clic o una autorización en
+el navegador, él se lo pedirá.
 
 ---
 
@@ -33,17 +36,31 @@ háblame SIEMPRE en lenguaje simple, sin jerga técnica.
   me la consultas primero.
 
 **PARTE 3 — Conecta mi correo y calendario.**
-- Revisa qué conectores tengo disponibles (Gmail, Google Calendar, Google Drive).
-- Los que falten, guíame paso a paso para autorizarlos en el navegador con MI
-  cuenta. Tú nunca ves ni guardas mi contraseña: la autorización se hace en la
-  página oficial de Google y a ti solo te llega el permiso.
-- Cuando estén conectados, haz una prueba: muéstrame mis 5 correos más recientes
-  y mi agenda de mañana.
+- Primero pregúntame qué correo uso: Gmail/Google, Outlook/Microsoft u otro
+  (por ejemplo un correo de empresa). No asumas.
+- Revisa qué conectores ya tengo disponibles. Los que falten para MI proveedor,
+  instálalos o actívalos tú y guíame solo en la parte donde debo autorizar en el
+  navegador con mi cuenta. Tú nunca ves ni guardas mi contraseña: la
+  autorización se hace en la página oficial del proveedor y a ti solo te llega
+  el permiso.
+- Si mi proveedor de correo no tiene conector disponible hoy, dímelo claro,
+  anótalo como pendiente con el nombre de qué haría falta, y sigue con el resto
+  de la instalación — no te trabes ahí.
+- Cuando el correo quede conectado, haz una prueba: muéstrame mis 5 correos más
+  recientes y mi agenda de mañana.
 
-**PARTE 4 — Crea mi archivo de pendientes.**
-- Crea una carpeta `Despacho` en mis Documentos con un archivo `PENDIENTES.md`
-  (mi lista maestra) y un archivo `BITACORA.md` (el registro de lo que haces por
-  mí). Explícame en 2 líneas cómo funcionan.
+**PARTE 4 — Crea mi Despacho (los archivos de control).**
+- Averigua cuál es mi carpeta de Documentos REAL (ojo: en muchas máquinas
+  Windows está dentro de OneDrive) y crea ahí la carpeta `Despacho` con:
+  `PENDIENTES.md` (mi lista maestra), `BITACORA.md` (el registro de lo que haces
+  por mí), `AUTOMATIZACIONES.md` (la lista de todo lo que corre solo, para que
+  yo siempre pueda verla) y la subcarpeta `cierres` (los resúmenes semanales).
+- **Anota la ruta exacta del Despacho** en mis reglas de la casa
+  (`~/.claude/CLAUDE.md`, sección "Datos de esta instalación") para que todas
+  las órdenes la encuentren siempre, sin adivinar.
+- Activa el historial de versiones del Despacho (git) y guarda la primera
+  versión, para que nada de lo que ahí se escriba pueda perderse.
+- Explícame en 3 líneas cómo funciona el Despacho.
 
 **PARTE 5 — Prueba general y cierre.**
 - Ejecuta la orden "tablero" completa como demostración.
@@ -66,12 +83,10 @@ háblame SIEMPRE en lenguaje simple, sin jerga técnica.
 
 ### ¿Y si no tengo la carpeta todavía?
 
-Pídale a Rafael el enlace del repositorio y pegue en PowerShell:
+Pídale a Rafael el enlace del paquete, abra Claude (escriba `claude` en
+PowerShell) y dígale:
 
-```
-git clone <ENLACE-QUE-LE-PASE-RAFAEL> claude-director
-cd claude-director
-claude
-```
+> "Descárgame el paquete claude-director desde este enlace: (pegue el enlace).
+> Si te falta alguna herramienta para descargarlo, instálala tú y avísame."
 
-Y luego pegue el bloque de arriba.
+Cuando Claude confirme que lo descargó, pegue el bloque de arriba.

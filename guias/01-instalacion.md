@@ -34,6 +34,10 @@ archivos, consultar estado) pasa sin interrumpirlo; todo lo que CAMBIA algo
 (borrar, enviar, instalar, publicar) sigue requiriendo su "sí". Así usted no
 vive aprobando ventanitas, pero nada delicado ocurre sin usted.
 
+Si aun así le pregunta demasiado por cosas de solo mirar, dígale: *"estas
+consultas de solo lectura apruébalas solas de ahora en adelante"* — él ajusta la
+lista y le confirma qué agregó.
+
 ## Si algo falla
 
 Dígale a Claude: *"algo falló en la instalación, diagnostícalo y dime en

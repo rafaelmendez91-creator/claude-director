@@ -12,22 +12,18 @@
       "PowerShell(Measure-Object:*)",
       "PowerShell(Resolve-Path:*)",
       "Bash(ls:*)",
-      "Bash(dir:*)",
       "Bash(git status:*)",
       "Bash(git log:*)",
       "Bash(git diff:*)",
       "Bash(git branch:*)",
-      "Bash(git pull:*)",
-      "Bash(git add:*)",
-      "Bash(git commit:*)",
-      "Bash(python:*)",
-      "Read(//c/Users/**)",
-      "Glob(*)",
-      "Grep(*)"
+      "Read(~/Documents/**)",
+      "Read(~/Downloads/**)",
+      "Read(~/Desktop/**)",
+      "Glob",
+      "Grep"
     ],
     "deny": [
       "Bash(rm -rf:*)",
-      "PowerShell(Remove-Item:*)",
       "PowerShell(Stop-Computer:*)",
       "PowerShell(Restart-Computer:*)",
       "PowerShell(Set-ExecutionPolicy:*)"

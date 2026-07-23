@@ -3,7 +3,8 @@ name: pendientes
 description: Administra la lista maestra de pendientes del director - agregar, cerrar, reclamar vencidos. Dispara con "pendientes", "anota", "qué está vencido", "cierra el pendiente de".
 ---
 
-La lista maestra vive en `Documentos\Despacho\PENDIENTES.md`. Es UNA sola lista
+La lista maestra vive en `PENDIENTES.md` del Despacho (la ruta exacta está en
+tus reglas de la casa). Es UNA sola lista
 para todas las empresas. Formato de cada línea:
 
 `- [ ] (Empresa) Qué hay que hacer — Responsable — vence AAAA-MM-DD — fuente`
