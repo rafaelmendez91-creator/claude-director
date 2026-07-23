@@ -36,6 +36,7 @@ No necesita saber de computación. Todo se instala pegando **un solo texto** en 
 | [skills/](skills/) | Las órdenes que su Claude entiende: "tablero", "revisa mi correo", "revísalo", etc. |
 | [guias/](guias/) | Explicaciones cortas en lenguaje simple (correo, agentes, GitHub, pendientes) |
 | [RECOMENDACIONES.md](RECOMENDACIONES.md) | Consejos de operación y cómo delegar el mantenimiento técnico |
+| [ACTUALIZACIONES.md](ACTUALIZACIONES.md) | Qué trae cada versión. Para actualizar: dígale a Claude *"actualiza el paquete claude-director"* |
 
 ## Las 5 promesas de este sistema
 

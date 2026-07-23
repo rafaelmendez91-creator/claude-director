@@ -24,6 +24,9 @@ háblame SIEMPRE en lenguaje simple, sin jerga técnica.
 - Copia su archivo `CLAUDE.md` a tu configuración personal (`~/.claude/CLAUDE.md`).
   Si ya existe uno, intégralos sin borrar lo que había, y muéstrame un resumen de
   qué reglas quedaron activas.
+- Anota en la sección "Datos de esta instalación" de ese archivo: la ruta de la
+  carpeta del paquete y la versión instalada (la más reciente de
+  `ACTUALIZACIONES.md`).
 - Copia la carpeta `skills/` completa a tu carpeta de skills (`~/.claude/skills/`).
   Al terminar, dime en una tabla simple qué órdenes me entiendes ahora (por
   ejemplo: "tablero", "revisa mi correo", "revísalo") y para qué sirve cada una.

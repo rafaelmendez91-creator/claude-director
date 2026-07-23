@@ -38,6 +38,33 @@ Si aun así le pregunta demasiado por cosas de solo mirar, dígale: *"estas
 consultas de solo lectura apruébalas solas de ahora en adelante"* — él ajusta la
 lista y le confirma qué agregó.
 
+## Cuando Claude le pida permiso
+
+Su asistente tiene la instrucción de no frenarse con explicaciones largas:
+debe decirle en una línea **qué va a hacer y qué botón aprobar**. Si alguna vez
+se pone excesivamente precavido (se niega a leer un documento "por seguridad",
+o le da un discurso en vez de una instrucción), recuérdeselo: *"dime qué
+aprobar y sigue"*. Está entrenado para aceptar ese reclamo.
+
+## El modo "omitir permisos" (úselo con criterio)
+
+Existe una forma de arrancar Claude en la que **no pregunta nada**: ejecuta
+todo de corrido. Es cómodo para tareas largas y mecánicas, pero quita el
+cinturón de seguridad. Recomendación:
+
+- **No lo use como modo diario.** Para el día a día, la lista pre-aprobada ya
+  evita las ventanitas de "solo mirar".
+- **Sí puede valer la pena** para una tarea puntual y acotada — por ejemplo,
+  ordenar una carpeta con miles de archivos sin aprobar movimiento por
+  movimiento. En ese caso, tres condiciones: (1) una sesión dedicada SOLO a esa
+  tarea, (2) el trabajo limitado a UNA carpeta declarada de antemano, nunca el
+  Escritorio o el disco entero, y (3) recordar que las reglas de la casa siguen
+  vigentes — sin permisos que aprobar, lo que lo protege son las reglas: nada
+  se borra, nada se envía.
+- Para activarlo, pídaselo a su asistente: *"dame el comando para arrancar sin
+  permisos para esta tarea"* — él se lo da y le repite las condiciones. Al
+  terminar la tarea, vuelva a abrir Claude de la forma normal.
+
 ## Si algo falla
 
 Dígale a Claude: *"algo falló en la instalación, diagnostícalo y dime en
