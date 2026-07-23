@@ -27,6 +27,17 @@ No necesita saber de computación. Todo se instala pegando **un solo texto** en 
 3. **Pruébelo.** Escríbale a Claude: **"tablero"**. Le dará su día en una página:
    correos importantes, pendientes y qué decidir hoy.
 
+## Cuando esté en OTRA de sus máquinas
+
+No memorice pasos distintos por aparato. Una sola frase le sirve siempre, sea
+la primera vez ahí o ya la haya usado antes — Claude decide solo qué hace falta
+mirando esta misma máquina, no su recuerdo de otra:
+
+> **"Sincroniza mi oficina con mi repositorio claude-director."**
+
+Si la máquina es nueva, la deja instalada de cero. Si ya la había configurado,
+la actualiza a la última versión. Detalle en [guía 08](guias/08-sincronizar-mis-maquinas.md).
+
 ## Qué hay en esta carpeta
 
 | Carpeta / archivo | Qué es |
@@ -37,6 +48,7 @@ No necesita saber de computación. Todo se instala pegando **un solo texto** en 
 | [guias/](guias/) | Explicaciones cortas en lenguaje simple (correo, agentes, GitHub, pendientes) |
 | [RECOMENDACIONES.md](RECOMENDACIONES.md) | Consejos de operación y cómo delegar el mantenimiento técnico |
 | [ACTUALIZACIONES.md](ACTUALIZACIONES.md) | Qué trae cada versión. Para actualizar: dígale a Claude *"actualiza el paquete claude-director"* |
+| `skills/sincroniza` | La frase única para cualquier máquina: clona si es nueva, actualiza si no |
 
 ## Las 5 promesas de este sistema
 

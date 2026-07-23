@@ -15,6 +15,15 @@ instalación"; si es menor que la de aquí, aplica todo lo que falte.
 
 ---
 
+## v1.3 — 2026-07-23 · Una frase para todas las máquinas
+
+- **Skill `sincroniza`**: detecta el estado real de CADA máquina desde sus
+  archivos (no de memoria) — clona el paquete si es la primera vez ahí,
+  actualiza si ya existía, y verifica que el espejo (Despacho + conectores)
+  quede igual que en las demás.
+- **Guía 08**: la frase única — "Sincroniza mi oficina con mi repositorio
+  claude-director" — sirve igual en una máquina nueva que en una ya montada.
+
 ## v1.2 — 2026-07-23 · Colaboración sin frenos
 
 - **CLAUDE.md**: nueva sección "Colabora, no frenes" — decir exactamente qué
