@@ -15,6 +15,20 @@ instalación"; si es menor que la de aquí, aplica todo lo que falte.
 
 ---
 
+## v1.5 — 2026-07-23 · Nunca te quedes buscando
+
+- **Corrección de campo (encontrada en la laptop del director)**: la skill
+  `sincroniza` se quedaba escaneando TODO el Google Drive buscando el Despacho,
+  sin terminar nunca, porque no había una ubicación fija ni un límite de
+  intentos. Corregido: el Despacho ahora vive SIEMPRE en la raíz de "Mi
+  unidad" (nunca dentro de otra carpeta), y toda búsqueda es de un solo intento
+  dirigido — si no da resultado, se pregunta al director en vez de seguir
+  buscando.
+- **CLAUDE.md**: nueva regla dura "nunca te quedes buscando indefinidamente",
+  aplicable a cualquier búsqueda (correo, Drive, disco), no solo al Despacho.
+- **Guía 08**: agrega la frase de rescate si esto llega a pasar — "para de
+  buscar, pregúntame la dirección directamente".
+
 ## v1.4 — 2026-07-23 · Su propia copia, no la de Rafael
 
 - **EMPEZAR_AQUI (nueva PARTE 0)**: lo primero que hace la instalación es

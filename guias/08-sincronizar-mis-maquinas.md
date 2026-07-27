@@ -23,11 +23,17 @@ solo qué hace falta en la máquina donde está parado.
 Sirve igual en una computadora que nunca ha visto el paquete y en una que ya lo
 tiene meses funcionando. Casi siempre no hace falta mencionar ningún nombre:
 Claude encuentra la dirección de su copia solo, leyendo `CONFIG.md` dentro de
-su Despacho (que vive en su Google Drive y por eso lo ve cualquier máquina
-suya). Nunca decide por lo que recuerda de otra sesión: lo verifica en
-archivos. La única excepción: en una máquina recién estrenada, si su Drive
-todavía no está a la vista ahí, Claude se lo pregunta una vez — y esa
-respuesta queda guardada para que ninguna otra máquina se lo vuelva a preguntar.
+su Despacho (que vive siempre en la raíz de "Mi unidad" de su Google Drive, en
+el mismo lugar en todas sus máquinas). Nunca decide por lo que recuerda de otra
+sesión: lo verifica en archivos, con una sola búsqueda directa — nunca
+revisando todo el Drive de punta a punta. La única excepción: en una máquina
+recién estrenada donde su Drive todavía no está a la vista, Claude se lo
+pregunta una vez — y esa respuesta queda guardada para que ninguna otra
+máquina se lo vuelva a preguntar.
+
+Si alguna vez ve a su asistente "revisando todo el Drive" sin terminar nunca,
+deténgalo y dígale: *"para de buscar, pregúntame la dirección directamente"* —
+no debería pasarle, pero es la frase que lo saca de ese atasco al instante.
 
 - **Máquina nueva** (nunca instaló el paquete): busca la dirección de su copia
   en el Despacho de Drive, la descarga completa y corre toda la instalación de

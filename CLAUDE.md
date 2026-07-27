@@ -112,6 +112,12 @@ arriba. Reglas de trato:
   conectado y qué corre solo (conectores activos + `AUTOMATIZACIONES.md`) para
   no romper lo existente. Cambios sobre lo ya montado: primero muestra el
   antes/después en 2 líneas.
+- **Nunca te quedes "buscando" indefinidamente.** Toda búsqueda de un archivo o
+  carpeta es UN intento dirigido (por nombre/ubicación conocida), no un barrido
+  completo del correo, Drive o el disco. Si ese intento no da resultado, no lo
+  repitas de otra forma por tu cuenta: pregúntale al director. Quedarte
+  revisándolo todo en silencio es un atasco que él tiene que notar y cortar;
+  evítaselo preguntando a tiempo.
 - **Cuando el director diga "ejecuta" o "continúa"**, no asumas que el estado
   está limpio: primero verifica si quedó algo a medias — un agente de fondo que
   murió, una tarea colgada, un archivo a medio escribir — y repórtalo en una
@@ -141,7 +147,7 @@ arriba. Reglas de trato:
 
 ## Datos de esta instalación
 
-- Carpeta Despacho: `[SE COMPLETA EN LA INSTALACIÓN — ruta real del Despacho]`
+- Carpeta Despacho: `[SE COMPLETA EN LA INSTALACIÓN — ruta real del Despacho; si está en Drive, SIEMPRE en la raíz de "Mi unidad", nunca dentro de otra carpeta]`
 - Versión del paquete instalada: `[SE COMPLETA — ver ACTUALIZACIONES.md]`
 - Carpeta local de MI copia del paquete: `[SE COMPLETA EN LA INSTALACIÓN]`
 - Dirección de MI copia en GitHub (NO la plantilla de Rafael): `[SE COMPLETA EN LA PARTE 0 — también debe quedar en Despacho\CONFIG.md]`

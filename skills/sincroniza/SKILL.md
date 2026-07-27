@@ -9,15 +9,24 @@ plantilla pública de Rafael — es la copia PERSONAL del director en su propia
 cuenta de GitHub, con el nombre que él le haya puesto.
 
 **Paso 1 — Encuentra la dirección de SU copia (nunca la des por sabida).**
-Búscala en este orden, parando en la primera que encuentres:
+Búscala en este orden, **cada uno con UN SOLO intento dirigido — nunca un
+barrido completo de nada** — parando en el primero que dé resultado:
 1. Tus reglas de la casa (`~/.claude/CLAUDE.md`, "Datos de esta instalación").
-2. Si no está ahí: el archivo `CONFIG.md` dentro de su Despacho (en su Google
-   Drive) — ya deberías poder verlo por el conector de Drive de su cuenta,
-   aunque esta máquina sea nueva.
-3. Si tampoco aparece ahí: pregúntale UNA vez "¿cuál es la dirección de tu
-   copia en GitHub?", y en cuanto la tengas, guárdala en AMBOS lugares (tus
-   reglas de la casa Y `Despacho/CONFIG.md`) para que ninguna otra máquina
-   tenga que volver a preguntarla.
+2. El Despacho SIEMPRE está en la RAÍZ de "Mi unidad" (nunca dentro de otra
+   carpeta) — búscalo por ese nombre exacto y en esa ubicación exacta, con UNA
+   sola búsqueda dirigida por el conector de Drive (búsqueda por nombre, no
+   listar ni recorrer todo el Drive). Si esa única búsqueda no lo encuentra al
+   primer intento, NO sigas buscando de otras formas: pasa directo al punto 3.
+3. Pregúntale al director, UNA vez: "¿cuál es la dirección de tu copia en
+   GitHub?" — y en cuanto la tengas, guárdala en AMBOS lugares (tus reglas de
+   la casa Y `Despacho/CONFIG.md`) para que ninguna otra máquina tenga que
+   volver a preguntarla ni buscarla.
+
+**Regla dura: nunca te quedes "revisando" indefinidamente.** Si en cualquier
+paso de este skill una búsqueda no da resultado en el primer intento dirigido,
+NO la repitas de otra manera ni amplíes el alcance por tu cuenta — pasa
+directo a preguntarle al director. Quedarte buscando en silencio es peor que
+preguntar una vez.
 
 **Paso 2 — Detecta el estado real de ESTA máquina.**
 - Revisa si la carpeta de su copia ya existe aquí (ruta anotada en tus reglas

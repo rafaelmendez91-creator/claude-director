@@ -83,11 +83,12 @@ y háblame SIEMPRE en lenguaje simple, sin jerga técnica.
 
 **PARTE 4 — Crea mi Despacho (los archivos de control).**
 - Revisa si esta máquina tiene la aplicación **Google Drive para escritorio**
-  sincronizando mi cuenta. Si la tiene, crea la carpeta `Despacho` DENTRO de
-  Mi unidad de Drive — así mi Despacho se ve igual desde mi teléfono, mi tablet
-  y mis otras computadoras. Si no la tiene, créalo en mi carpeta de Documentos
-  real (ojo: puede estar dentro de OneDrive) y anótame como pendiente "instalar
-  Google Drive para escritorio y mudar el Despacho" para hacerlo cuando yo diga.
+  sincronizando mi cuenta. Si la tiene, crea la carpeta `Despacho` **directo en
+  la RAÍZ de "Mi unidad"** — nunca dentro de otra carpeta — así mis otras
+  máquinas la encuentran siempre en el mismo lugar sin tener que buscarla. Si
+  no la tiene, créalo en mi carpeta de Documentos real (ojo: puede estar dentro
+  de OneDrive) y anótame como pendiente "instalar Google Drive para escritorio
+  y mudar el Despacho a la raíz de Mi unidad" para hacerlo cuando yo diga.
 - Dentro del Despacho crea: `PENDIENTES.md` (mi lista maestra), `BITACORA.md`
   (el registro de lo que haces por mí), `AUTOMATIZACIONES.md` (la lista de todo
   lo que corre solo, para que yo siempre pueda verla), `CONFIG.md` (con UNA
