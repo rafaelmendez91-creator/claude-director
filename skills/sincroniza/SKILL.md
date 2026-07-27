@@ -3,30 +3,21 @@ name: sincroniza
 description: Revisa esta máquina, clona o actualiza la copia PERSONAL del director en GitHub y la deja igual que las demás - no asume nada, lo verifica en archivos. Dispara con "sincroniza mi oficina", "ponme al día", "es la primera vez en esta máquina", "configúrame igual que en la otra compu".
 ---
 
-**No reconstruyas de memoria: todo el estado sale de archivos.** Que ya lo
-hayas hecho en otra computadora no significa nada aquí. Y esta NO es la
-plantilla pública de Rafael — es la copia PERSONAL del director en su propia
-cuenta de GitHub, con el nombre que él le haya puesto.
+**Sigue primero la "Secuencia de arranque" de tus reglas de la casa (CLAUDE.md)
+— pasos 1 y 2 de esa sección son exactamente cómo encontrar la dirección de SU
+copia aquí.** Esta no es la plantilla pública de Rafael — es la copia PERSONAL
+del director en su propia cuenta de GitHub, con el nombre que él le haya
+puesto. Recordatorio corto de esos dos pasos:
+1. `~/.claude/CLAUDE.md` local, "Datos de esta instalación" — si ya está, listo.
+2. Si no: UN solo intento dirigido buscando el Despacho en la raíz de "Mi
+   unidad" de Drive, y lee `CONFIG.md` ahí. Si esa única búsqueda no da
+   resultado, NO la repitas de otra forma: pregúntale al director directamente
+   y guarda la respuesta en ambos lugares para la próxima vez.
 
-**Paso 1 — Encuentra la dirección de SU copia (nunca la des por sabida).**
-Búscala en este orden, **cada uno con UN SOLO intento dirigido — nunca un
-barrido completo de nada** — parando en el primero que dé resultado:
-1. Tus reglas de la casa (`~/.claude/CLAUDE.md`, "Datos de esta instalación").
-2. El Despacho SIEMPRE está en la RAÍZ de "Mi unidad" (nunca dentro de otra
-   carpeta) — búscalo por ese nombre exacto y en esa ubicación exacta, con UNA
-   sola búsqueda dirigida por el conector de Drive (búsqueda por nombre, no
-   listar ni recorrer todo el Drive). Si esa única búsqueda no lo encuentra al
-   primer intento, NO sigas buscando de otras formas: pasa directo al punto 3.
-3. Pregúntale al director, UNA vez: "¿cuál es la dirección de tu copia en
-   GitHub?" — y en cuanto la tengas, guárdala en AMBOS lugares (tus reglas de
-   la casa Y `Despacho/CONFIG.md`) para que ninguna otra máquina tenga que
-   volver a preguntarla ni buscarla.
-
-**Regla dura: nunca te quedes "revisando" indefinidamente.** Si en cualquier
-paso de este skill una búsqueda no da resultado en el primer intento dirigido,
-NO la repitas de otra manera ni amplíes el alcance por tu cuenta — pasa
-directo a preguntarle al director. Quedarte buscando en silencio es peor que
-preguntar una vez.
+**Regla dura: nunca te quedes "revisando" indefinidamente.** Si un intento
+dirigido no da resultado, no lo repitas ni amplíes el alcance por tu cuenta —
+pasa directo a preguntar. Quedarte buscando en silencio es peor que preguntar
+una vez.
 
 **Paso 2 — Detecta el estado real de ESTA máquina (no de otra).**
 - Revisa si la carpeta de su copia ya existe AQUÍ, en ESTE disco (ruta anotada

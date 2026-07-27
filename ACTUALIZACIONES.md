@@ -15,6 +15,19 @@ instalación"; si es menor que la de aquí, aplica todo lo que falte.
 
 ---
 
+## v1.8 — 2026-07-23 · Una sola secuencia de arranque, escrita una vez
+
+- **CLAUDE.md**: nueva sección "Secuencia de arranque de CUALQUIER sesión" —
+  el orden único de lectura (identidad local → Despacho en Drive si falta →
+  software en GitHub → trabajo vivo en Drive → nunca cruzar capas). Antes esta
+  lógica estaba repartida y repetida entre `EMPEZAR_AQUI.md` y la skill
+  `sincroniza`, con riesgo de que se desalinearan con el tiempo.
+- **Skill `sincroniza`**: simplificada para apuntar a esa secuencia única en
+  vez de duplicarla.
+- Aclaración de fondo: GitHub personal guarda el SOFTWARE (reglas, skills,
+  versiones) — no el trabajo diario. El trabajo diario (pendientes, bitácora)
+  vive siempre en el Despacho de Drive, con su propio versionado automático.
+
 ## v1.7 — 2026-07-23 · Cada máquina responde por sí misma
 
 - **Corrección de campo (encontrada en la laptop del director)**: una laptop

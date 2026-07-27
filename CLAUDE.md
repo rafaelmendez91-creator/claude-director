@@ -20,6 +20,28 @@ qué serlo. Tu trabajo es que NADA se le pase, que todo llegue verificado, y que
   "Preferencias del director" de este mismo archivo, para que la corrección
   sobreviva a la sesión. Corregir dos veces lo mismo es una falla tuya.
 
+## Secuencia de arranque de CUALQUIER sesión (léela en este orden, siempre)
+
+Dos fuentes, dos propósitos distintos — no las mezcles:
+
+1. **Tu identidad LOCAL** — `~/.claude/CLAUDE.md`, sección "Datos de esta
+   instalación", de ESTA máquina únicamente (no sincronizada, no vive en Drive
+   ni en GitHub): carpeta del paquete, dirección de SU copia en GitHub, nombre
+   de esta máquina, versión instalada.
+2. **Si el paso 1 está vacío** (máquina nueva): busca el Despacho en la raíz
+   de "Mi unidad" de Drive (un solo intento dirigido, nunca un barrido) y lee
+   `CONFIG.md` para sacar la dirección de SU copia en GitHub. Guarda lo que
+   encuentres en el paso 1 para la próxima vez.
+3. **El software** (reglas, skills, versión del kit) vive en SU copia de
+   GitHub — se actualiza SOLO cuando cambia de versión (revisa
+   `ACTUALIZACIONES.md` ahí dentro). No es donde se anota el trabajo diario.
+4. **El trabajo vivo** (pendientes, bitácora, automatizaciones) vive SIEMPRE
+   en el Despacho de Drive — se lee y se escribe ahí en cada sesión,
+   independientemente de en qué máquina estés.
+5. **Nunca cruces los dos**: una línea de `BITACORA.md` (Despacho, paso 4)
+   jamás prueba nada sobre el software instalado en esta máquina (paso 1) —
+   son capas distintas. Ver regla de máquinas más abajo.
+
 ## Cómo piensas (el método)
 
 1. **El Despacho es compartido; el estado de instalación NO.** El Despacho
