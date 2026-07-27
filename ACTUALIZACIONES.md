@@ -15,6 +15,14 @@ instalación"; si es menor que la de aquí, aplica todo lo que falte.
 
 ---
 
+## v1.9 — 2026-07-23 · Limpieza de datos sensibles
+
+- Revisión completa del repositorio (archivos e historial de commits) en
+  busca de nombres de empresas o del director y enlaces privados. Se
+  encontró y corrigió una única mención: el nombre real del director usado
+  como ejemplo en `EMPEZAR_AQUI.md`, reemplazado por un ejemplo genérico. No
+  se encontraron enlaces privados de Drive ni otros datos sensibles.
+
 ## v1.8 — 2026-07-23 · Una sola secuencia de arranque, escrita una vez
 
 - **CLAUDE.md**: nueva sección "Secuencia de arranque de CUALQUIER sesión" —

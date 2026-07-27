@@ -39,7 +39,7 @@ y háblame SIEMPRE en lenguaje simple, sin jerga técnica.
   apruebo — nunca te doy mi contraseña). Confirma que quedó en MI cuenta, no en
   la de Rafael.
 - Pregúntame dos cosas: (a) qué nombre quiero ponerle (por ejemplo "Mi
-  Oficina" u "Oficina Julio Pinto"), y (b) si la quiero pública o privada —
+  Oficina" o "Mi Despacho Digital"), y (b) si la quiero pública o privada —
   **recomiéndame privada**: nadie más la ve, y como es mía, no necesito el
   usuario de Rafael para nada, solo el mío.
 - Créala como repositorio NUEVO en mi cuenta (sin vínculo de "fork" hacia el de
