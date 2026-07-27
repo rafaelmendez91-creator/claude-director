@@ -53,9 +53,13 @@ y háblame SIEMPRE en lenguaje simple, sin jerga técnica.
 - Copia su archivo `CLAUDE.md` a tu configuración personal (`~/.claude/CLAUDE.md`).
   Si ya existe uno, intégralos sin borrar lo que había, y muéstrame un resumen de
   qué reglas quedaron activas.
+- Pregúntame cómo quiero llamar a ESTA máquina (por ejemplo "Todo-en-uno
+  oficina", "Laptop personal") y anótalo también en "Datos de esta
+  instalación".
 - Anota en la sección "Datos de esta instalación" de ese archivo: la ruta de la
-  carpeta, la dirección de MI copia en GitHub (no la de la plantilla), y la
-  versión instalada (la más reciente de `ACTUALIZACIONES.md`).
+  carpeta, la dirección de MI copia en GitHub (no la de la plantilla), el
+  nombre de esta máquina, y la versión instalada (la más reciente de
+  `ACTUALIZACIONES.md`).
 - Copia la carpeta `skills/` completa a tu carpeta de skills (`~/.claude/skills/`).
   Al terminar, **lista esa carpeta de destino de verdad** (no lo des por
   hecho) y dime en una tabla, con el NOMBRE de cada una, qué órdenes me

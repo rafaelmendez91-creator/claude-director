@@ -15,6 +15,19 @@ instalación"; si es menor que la de aquí, aplica todo lo que falte.
 
 ---
 
+## v1.7 — 2026-07-23 · Cada máquina responde por sí misma
+
+- **Corrección de campo (encontrada en la laptop del director)**: una laptop
+  nueva le dijo al director "todo está instalado" citando una línea de la
+  bitácora que en realidad hablaba del todo-en-uno de la otra oficina. El
+  Despacho es compartido entre máquinas; el estado de instalación NO.
+- **CLAUDE.md**: nueva regla — una línea de `BITACORA.md` nunca es prueba de
+  que algo está instalado en ESTA máquina; solo cuenta lo que se verifique
+  físicamente en este disco. Cada línea de bitácora ahora se etiqueta con el
+  nombre de la máquina que la escribió (`[Todo-en-uno oficina] ...`).
+- **EMPEZAR_AQUI y skill `sincroniza`**: preguntan/anotan el nombre de cada
+  máquina y refuerzan que el estado local nunca se asume desde el Despacho.
+
 ## v1.6 — 2026-07-23 · Los números se listan, no se cuentan
 
 - **Corrección de campo (encontrada en la laptop del director)**: la bitácora

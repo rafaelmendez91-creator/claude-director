@@ -28,10 +28,15 @@ NO la repitas de otra manera ni amplíes el alcance por tu cuenta — pasa
 directo a preguntarle al director. Quedarte buscando en silencio es peor que
 preguntar una vez.
 
-**Paso 2 — Detecta el estado real de ESTA máquina.**
-- Revisa si la carpeta de su copia ya existe aquí (ruta anotada en tus reglas
-  de la casa). Si no hay nada anotado, trátalo como primera vez en esta
-  máquina — no preguntes, verifícalo tú mismo revisando la carpeta.
+**Paso 2 — Detecta el estado real de ESTA máquina (no de otra).**
+- Revisa si la carpeta de su copia ya existe AQUÍ, en ESTE disco (ruta anotada
+  en las reglas de la casa de ESTA máquina). Si no hay nada anotado ahí,
+  trátalo como primera vez en esta máquina — no preguntes, verifícalo tú mismo
+  revisando la carpeta local.
+- **Una entrada de `BITACORA.md` que diga que el paquete ya se instaló NUNCA
+  es prueba de que está instalado aquí** — esa línea puede describir otra
+  máquina (revisa la etiqueta `[Nombre de máquina]` al inicio de cada línea).
+  Solo cuenta lo que encuentres físicamente en ESTE disco.
 
 **Paso 3A — Si NO existe aquí (máquina nueva):**
 - Clona SU copia (la dirección del Paso 1 — nunca la plantilla de Rafael).
