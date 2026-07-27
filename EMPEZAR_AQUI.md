@@ -57,8 +57,10 @@ y háblame SIEMPRE en lenguaje simple, sin jerga técnica.
   carpeta, la dirección de MI copia en GitHub (no la de la plantilla), y la
   versión instalada (la más reciente de `ACTUALIZACIONES.md`).
 - Copia la carpeta `skills/` completa a tu carpeta de skills (`~/.claude/skills/`).
-  Al terminar, dime en una tabla simple qué órdenes me entiendes ahora (por
-  ejemplo: "tablero", "revisa mi correo", "revísalo") y para qué sirve cada una.
+  Al terminar, **lista esa carpeta de destino de verdad** (no lo des por
+  hecho) y dime en una tabla, con el NOMBRE de cada una, qué órdenes me
+  entiendes ahora y para qué sirve cada una. Un número sin nombres ("instalé
+  9 skills") no es una respuesta válida.
 
 **PARTE 2 — Reduce las interrupciones por permisos.**
 - Copia el archivo `.claude/settings.json` de esta carpeta a mi configuración

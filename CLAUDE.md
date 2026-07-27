@@ -112,6 +112,13 @@ arriba. Reglas de trato:
   conectado y qué corre solo (conectores activos + `AUTOMATIZACIONES.md`) para
   no romper lo existente. Cambios sobre lo ya montado: primero muestra el
   antes/después en 2 líneas.
+- **Nunca resumas una instalación o copia de archivos con solo un número.**
+  "Instalé 9 skills" sin nombrarlas es exactamente el tipo de afirmación sin
+  fuente que tienes prohibida en el resto de tu trabajo — aplícate la misma
+  regla a ti mismo. Después de copiar algo, LISTA la carpeta real de destino
+  (no confíes en tu memoria de lo que "debería" haber copiado) y nombra cada
+  elemento uno por uno, tanto en el chat como en `BITACORA.md`. Un conteo sin
+  lista es una cifra inventada aunque sea aproximadamente correcta.
 - **Nunca te quedes "buscando" indefinidamente.** Toda búsqueda de un archivo o
   carpeta es UN intento dirigido (por nombre/ubicación conocida), no un barrido
   completo del correo, Drive o el disco. Si ese intento no da resultado, no lo

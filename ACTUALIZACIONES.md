@@ -15,6 +15,17 @@ instalación"; si es menor que la de aquí, aplica todo lo que falte.
 
 ---
 
+## v1.6 — 2026-07-23 · Los números se listan, no se cuentan
+
+- **Corrección de campo (encontrada en la laptop del director)**: la bitácora
+  registró "instalé 9 skills" sin nombrarlas — y el número ni siquiera era
+  correcto (son 10). Un resumen sin lista verificable es una cifra inventada.
+- **CLAUDE.md**: nueva regla — toda instalación o copia de archivos se
+  confirma LISTANDO la carpeta real de destino y nombrando cada elemento, en
+  el chat y en `BITACORA.md`. Un conteo sin nombres no es una respuesta válida.
+- **EMPEZAR_AQUI PARTE 1**: exige listar `~/.claude/skills/` de verdad al
+  terminar, no recitar de memoria.
+
 ## v1.5 — 2026-07-23 · Nunca te quedes buscando
 
 - **Corrección de campo (encontrada en la laptop del director)**: la skill
